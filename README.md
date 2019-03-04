@@ -50,13 +50,15 @@ Despues de descargar los archivos ya tenemos una copia local de nuestro proyecto
  
      D:\GitHub\placetopay composer update
 ![Composer Update](https://github.com/catg23/placetopay/blob/master/public/assets/images/readme/composer-update.PNG)
- - Configuracion de la Conexión a la Base de Datos
+
+### 2. Configuracion de la Conexión a la Base de Datos
+
 Abrimos el archivo .env ubicado en la raiz del proyecto y colocamos la informacion de nuestro servidor MySql.
 ![Enviroment Config](https://github.com/catg23/placetopay/blob/master/public/assets/images/readme/env-config.PNG)
- - Crear la Base de Datos
+### 3. Crear la Base de Datos
  Utilizando nuestro Administrador de Mysql favorito, debemos crear la base de datos en blanco para poder ejecutar las migraciones de las tablas de nuestro proyecto.
  
- - Migraciones
+### 4. Migraciones
  En la raiz del proyecto ejecutamos nuestro comando artisan..
  D:\GitHub\placetopay\ php artisan migrate
 ![Migrations](https://github.com/catg23/placetopay/blob/master/public/assets/images/readme/migrations.PNG)
