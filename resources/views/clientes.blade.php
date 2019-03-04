@@ -9,7 +9,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                            <strong class="card-title">Pagos Registrados</strong>
+                            <strong class="card-title">Clientes Registrados</strong>
                             <div class="pull-right">
                                 <a href="{{route('crear_cliente')}}" class="btn btn-primary">
                                     <i class="fa fa-plus"></i> Agregar Cliente
